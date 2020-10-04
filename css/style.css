@@ -8,10 +8,10 @@ body{
 	font-family: 'Libre Franklin', sans-serif;
 }
 h1, h2, h3, h4, h5, h6,{
-    font-family: 'Libre Franklin', sans-serif ;
+    font-family: 'Libre Franklin', sans-serif  ;
 }
 a, a:hover{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 /* main css start  here */
 .header-section{
@@ -279,4 +279,131 @@ a, a:hover{
 	text-decoration: underline;
 	transition: .3s 
 }
+.footer-section{
+	width: 100%;
+	background: #252c3a;
+}
+.footer-section .widget{
+	width: 100%;
+	padding: 80px 0px 60px
+}
+.footer-section .widget img {
+	margin-bottom: 20px
+}
+.footer-section .widget h1{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color:#fff ;
+	margin-bottom: 35px
 
+}
+.footer-section .widget p{
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+	color:#8e8e8f ;
+	margin-bottom: 20px
+}
+
+.footer-section .widget .social-icons{
+	width: 100%;
+	padding: 20px 0px;
+}
+.footer-section .widget .social-icons .icons{
+	display: block;
+	padding: 10px 0px 0px;
+	border-top: 1px solid #8e8e8f;
+}
+.footer-section .widget .social-icons .icons li{
+	list-style: none;
+	display: inline-block
+}
+.footer-section .widget .social-icons .icons li a{
+	font-size: 18px;
+	font-weight: 400;
+	color:#8e8e8f ;
+	margin:0px 8px ;
+	
+}
+.footer-section .widget .social-icons .icons li a:hover{
+	color:#0089fd ;
+	background: #252c3a
+}
+.footer-section .widget p span{
+	font-size: 12px;
+	color: #4f5257;
+	font-weight: 500;
+}
+.footer-section .widget .link p a{
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+	color:#8e8e8f ;
+	margin-bottom: 20px
+}
+.footer-section .widget .form{
+	position: relative;
+	border-radius: 0px
+}
+.footer-section .widget .form .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 19.5px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.footer-section .widget .form .btn-primary {
+    position: absolute;
+    bottom: -8px;
+    right: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background: #ffc178;
+    border: 1px solid #ffc178;
+    border-radius: 0px;
+    padding: 9px 22px;
+}
+.footer-section .main-footer{
+	background: #1d232e;
+	padding: 5px 0px 0px
+}
+.footer-section .main-footer .copyright{
+	padding: 30px 0px
+}
+.footer-section .main-footer .copyright p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	color:#8e8e8f ;
+	margin-bottom: 0px
+}
+.footer-section .main-footer .footer-links{
+	width: 100%;
+	padding: 20px 0px;
+}
+.footer-section .main-footer .footer-links .links{
+	display: block;
+	padding: 10px 0px 0px;
+	text-align: right
+}
+.footer-section .main-footer .footer-links .links li{
+	list-style: none;
+	display: inline-block
+}
+.footer-section .main-footer .footer-links .links li a{
+	font-size: 14px;
+	font-weight: 500;
+	color:#8e8e8f ;
+	margin:0px 0px 0px 15px ;
+	
+}
