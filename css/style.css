@@ -1,0 +1,246 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+h1, h2, h3, h4, h5, h6,{
+    font-family: 'Libre Franklin', sans-serif ;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* main css start  here */
+.header-section{
+	width: 100%;
+	background: url("../images/bg.png") center top no-repeat;
+	background-size: cover;
+}
+.menu{
+	width: 100%;
+	padding: 10px 0px
+}
+.menu .bg-light{
+	width: 100%;
+	background: transparent !important;
+}
+.menu .navbar-light .navbar-nav .nav-link {
+    color: #5a6e79;
+    font-size: 16px;
+    font-weight: 500;
+
+    margin: 0px 15px;
+}
+.menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #ffc178;
+	border-bottom: 2px solid #ffc178;
+    padding-bottom: 0px
+}
+.menu .navbar-light .navbar-nav .active>.nav-link{
+    color: #ffc178;
+    border-bottom: 2px solid #ffc178;
+    padding-bottom: 0px;
+    transition: 1s ease-in-out
+}
+.menu .navbar-light .navbar-nav .btn-info {
+    color: #ffc178;
+    background: #fff;
+    border-color: #fff;
+    padding: 8px 30px;
+    border-radius: 35px;
+    box-shadow: 1px 1px 5px #ccc;
+    font-size: 16px;
+    font-weight: 500;
+}
+.menu .navbar-light .navbar-nav .btn-info:hover{
+	color: #fff;
+    background: #ffc178;
+    border-color: #ffc178;
+    transition: .5s ease-out	
+}
+.banner{
+	width: 100%;
+	padding: 0px 0px 280px
+}
+.banner .banner-inner{
+	width: 100%;
+	padding: 70px 0px 0px
+}
+.banner .banner-inner h2{
+	font-size: 34px;
+	line-height: 44px;
+	font-weight: 600;
+	color:#ffc178 
+
+}
+.banner .banner-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color:#5a6e79 ;
+	margin-bottom: 25px
+}
+.banner .banner-inner .btn-info{
+	color: #fff;
+    background: #ffc178;
+    border-color: #ffc178;
+    padding: 14px 30px;
+    border-radius: 35px; 
+    font-size: 16px;
+    font-weight: 500;
+}
+.banner .banner-inner .btn-info:hover{
+	color: #ffc178;
+    background: #fff;
+    border-color: #fff;
+    transition: .5s ease-out;
+    box-shadow: 1px 1px 5px #ccc;
+}
+/* main css end  here */
+.department{
+	width: 100%;
+	background: url("../images/bg1.png") center bottom no-repeat;
+	background-size: contain;
+	padding: 0px 0px
+}
+.department .title{
+	width: 100%;
+	text-align: center;
+	padding: 0px 0px 20px
+}
+.department .title h1{
+	font-size: 34px;
+	line-height: 44px;
+	font-weight: 600;
+	color:#252c3a 
+
+}
+.department .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color:#5a6e79 ;
+	margin-bottom: 25px
+}
+.department .department-inner{
+	width: 100%;
+	text-align: center;
+}
+.department .f1{
+	background: #f9703a;
+	padding: 0px 0px 60px
+}
+.department .f2{
+	background: #80be41;
+	padding: 0px 0px 60px
+}
+.department .f3{
+	background: #ffb258;
+	padding: 0px 0px 60px
+}
+.department .department-inner h3{
+	font-size: 28px;
+	font-weight: 600;
+	color:#fff
+}
+.about-chairmen{
+	width: 100%;
+	padding: 100px 0px 60px;
+	background: url("../images/bg2.png") center top no-repeat;
+	background-size: contain;
+	padding: 0px 0px;
+	margin: 0px 0px -53px;
+
+}
+.about-chairmen .img-inner{
+	padding: 80px 0px 80px
+}
+.about-chairmen .inner-text{
+	width: 100%;
+	padding: 80px 0px 20px 95px;
+
+}
+.about-chairmen .inner-text h1{
+	font-size: 34px;
+	line-height: 44px;
+	font-weight: 600;
+	color:#252c3a 
+
+}
+.about-chairmen .inner-text p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color:#5a6e79 ;
+	margin-bottom: 25px
+}
+.about-chairmen .inner-text .students{
+	margin-top: 35px
+}
+.about-chairmen .inner-text .students h4{
+	font-size: 38px;
+	font-weight: 700;
+	color: #ffba00
+}
+.about-chairmen .inner-text .students p{
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffba00
+}
+.about-chairmen .inner-text .courses{
+	margin-top: 35px
+}
+.about-chairmen .inner-text .courses h4{
+	font-size: 38px;
+	font-weight: 700;
+	color: #ff5f72
+}
+.about-chairmen .inner-text .courses p{
+	font-size: 18px;
+	font-weight: 600;
+	color: #ff5f72
+}
+.about-chairmen .inner-text .hours{
+	margin-top: 35px
+}
+.about-chairmen .inner-text .hours h4{
+	font-size: 38px;
+	font-weight: 700;
+	color: #43cb83
+}
+.about-chairmen .inner-text .hours p{
+	font-size: 18px;
+	font-weight: 600;
+	color: #43cb83
+}
+.around{
+	width: 100%;
+	background: url("../images/bg4.png") center top no-repeat;
+	background-size: contain; 
+	padding:30px 0px 
+}
+.around .title{
+	width: 100%;
+	text-align: center;
+	padding: 40px 0px
+}	
+.around .title h1{
+	font-size: 34px;
+	line-height: 44px;
+	font-weight: 600;
+	color:#252c3a 
+
+}
+.around .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color:#5a6e79 ;
+	margin-bottom: 25px
+}	
+.around .card{
+	margin-bottom: 30px
+}
