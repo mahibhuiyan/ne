@@ -103,7 +103,7 @@ a, a:hover{
 .department{
 	width: 100%;
 	background: url("../images/bg1.png") center bottom no-repeat;
-	background-size: contain;
+	background-size: cover;
 	padding: 0px 0px
 }
 .department .title{
@@ -244,3 +244,39 @@ a, a:hover{
 .around .card{
 	margin-bottom: 30px
 }
+.around .card .card-title{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 600;
+	color:#515661 ;
+	margin-bottom: 10px
+}
+.around .card .card-text{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color:#5a6e79 ;
+	margin-bottom: 5px
+}
+.around .card .btn-link{
+	font-size: 15px;
+	font-weight: 600;
+	padding: 0px;
+	color:#5a6e79 ;
+}
+.around .card .btn-link:hover{
+	text-decoration: none;
+	color: #252c3a
+}
+.around .card .btn-link:focus{
+	outline: 0;
+    box-shadow:none;
+    text-decoration: none;
+
+}
+.around .card:hover .card-title{
+	color: #ffc178;
+	text-decoration: underline;
+	transition: .3s 
+}
+
