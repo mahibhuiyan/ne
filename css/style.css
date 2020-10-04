@@ -37,7 +37,8 @@ a, a:hover{
 .menu .navbar-light .navbar-nav .nav-link:hover{
 	color: #ffc178;
 	border-bottom: 2px solid #ffc178;
-    padding-bottom: 0px
+    padding-bottom: 0px;
+    transition: .3s
 }
 .menu .navbar-light .navbar-nav .active>.nav-link{
     color: #ffc178;
